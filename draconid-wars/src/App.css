@@ -8,7 +8,44 @@
 }
 
 .character {
+  background-color: white;
+  border: 0.25em solid black;
+  border-radius: 5em;
+  cursor: pointer;
+  padding: 1em;
+  margin: 1em;
+}
+
+.character-image {
   width: 15em;
   height: 15em;
+}
+
+.character:hover {
+  background-color: rgba(128, 128, 128, 0.75);
+}
+
+.players {
+  display: flex;
+  justify-content: space-between;
+}
+
+.start-button {
+  margin: auto;
+  padding: 1.25em;
+  text-align: center;
+  position: relative;
+  display: block;
+  color: black;
+  border: 0.25em solid black;
+  border-radius: 50vw;
+  font: 400 larger 'Space Mono';
+  text-transform: uppercase;
   cursor: pointer;
+}
+
+.start-button:hover {
+  color: white;
+  background-color: black;
+  border: 0.25em solid white;
 }

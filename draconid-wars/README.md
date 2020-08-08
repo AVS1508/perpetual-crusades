@@ -51,3 +51,5 @@
 
 * Attributions
   - <a href="https://www.vecteezy.com/free-vector/dragon">Dragon Vectors by Vecteezy</a>
+  - <a href="https://www.freepik.com/vectors/retro">Retro vector created by macrovector - www.freepik.com</a>
+
