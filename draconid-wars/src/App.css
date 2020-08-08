@@ -1,0 +1,14 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.character {
+  width: 15em;
+  height: 15em;
+  cursor: pointer;
+}
