@@ -103,11 +103,13 @@ class App extends Component {
             Restart Game
           </a>
         </div>
+        {(this.state.displayInstruction) ? (
+        <Instructions
+          onClose={this.toggleInstruction}
+          displayInstruction={this.state.displayInstruction}
+        />
+        ) : (
         <div className="App">
-          <Instructions
-            onClose={this.toggleInstruction}
-            displayInstruction={this.state.displayInstruction}
-          />
           <PlayersDisplay
             players={this.state.players}
             getPlayerRace={(currentPlayerNumber) =>
@@ -129,6 +131,7 @@ class App extends Component {
             <CharacterSelection startGame={this.startGame} />
           )}
         </div>
+        )}
         <Footer />
       </>
     );

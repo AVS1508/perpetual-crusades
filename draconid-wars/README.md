@@ -26,7 +26,7 @@ Draconid Wars is a 2-player board game based on dice, with a theme loosely set a
     - If the player lands on their own tile, then their score is incremented by 2.
     - If the player lands on their opponent's tile, then their score is decremented by 1.
     - If the player lands on _Fields of Destiny_, they have an equal chance of winning a point or forfeiting a point.
-    - If the player lands on _Mythic Kingdom of Friendship_ square, the player's score is not affected.
+    - If the player lands on _Mythic Kingdom of Friendship_, the player's score is not affected.
   - There is no clear winner in this game (just like there is no victor in war), and you can keep playing till one of the players reach an arbitrary limit on the score, decided before embarking on this quest. A game of 15 points is preferable for short playthroughs.  
 
 ### Technologies Used
@@ -37,3 +37,4 @@ Draconid Wars is a 2-player board game based on dice, with a theme loosely set a
   - (Draconem Character Illustrations) <a href="https://www.vecteezy.com/free-vector/dragon">Dragon Vectors by Vecteezy</a>
   - (Humanoid Character Illustrations) <a href="https://www.freepik.com/vectors/retro">Retro vector created by macrovector - www.freepik.com</a>
   - (Location Illustrations) <a href='https://www.freepik.com/vectors/tree'>Tree vector created by macrovector - www.freepik.com</a>
+

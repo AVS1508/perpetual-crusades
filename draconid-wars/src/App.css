@@ -174,17 +174,18 @@ game-tile::before {
 .instructions {
   display: flex;
   flex-direction: column;
-  width: 80vw;
+  width: 100vw;
+  height: 88vh;
   background: white;
   border: 1px solid #ccc;
-  padding: 1em;
-  transition: 1.1s ease-out;
-  box-shadow: -2rem 2rem 2rem rgba(0, 0, 0, 0.2);
+  padding: 0;
   filter: blur(0);
   transform: scale(1);
   opacity: 1;
   visibility: visible;
   color: black;
+  justify-content: center;
+  align-items: center;
 }
 
 .instructions.off {

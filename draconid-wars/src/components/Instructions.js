@@ -11,54 +11,48 @@ class Instructions extends Component {
     return (
       <div class="instructions">
         <h2 style={{ textAlign: "center" }}>Game Instructions</h2>
+        <br />
+        <br />
         <div class="content">
           <ul>
-            <li>Local 2-player game of Monopoly-except for D&D</li>
+            <li>The first player chooses a Humanoid character.</li>
+            <li>The second player chooses a Draconem character.</li>
             <li>
-              {" "}
-              Humanoid Faction Player Character Choices: Mighty Knight, Ancient
-              Wizard, Stealthy Rogue
+              The Board appears, and Humanoid character begins by rolling a die!
             </li>
             <li>
-              {" "}
-              Draconem Faction Player Character Choices: Fiery Red Dragon,
-              Baneful Blue Dragon, Noxious Green Dragon
-            </li>
-            <li>
-              {" "}
-              The Board generates based on player choices:
+              The player moves ahead the same number of tiles as the number on
+              the die.
               <ul>
-                <li>Starting Tile: Mythic Kingdom of Friendship</li>
                 <li>
-                  Tiles with Humanoid Terrain (MK: Lands of Fortitude, AW:
-                  Places of Power, SR: Forests of Invisibility)
+                  If the player lands on their own tile, then their score is
+                  incremented by 2.
                 </li>
                 <li>
-                  Tiles with Draconem Terrain (FR: Fiery Pits, BB: Ashy Embers,
-                  NG: Poisonous Fumes)
+                  If the player lands on their opponent's tile, then their score
+                  is decremented by 1.
                 </li>
-                <li>Tiles where battles occur: Fields of Destiny</li>
+                <li>
+                  If the player lands on Fields of Destiny, they have an equal
+                  chance of winning a point or forfeiting a point.
+                </li>
+                <li>
+                  If the player lands on Mythic Kingdom of Friendship, the
+                  player's score is not affected.
+                </li>
               </ul>
             </li>
             <li>
-              Gameplay:
-              <ul>
-                <li>Player rolls the die.</li>
-                <li>Player moves tiles forward the number on the die</li>
-                <li>If the player lands on their own square: +2 Score</li>
-                <li>
-                  If the player lands on their opponent's square: -1 Score
-                </li>
-                <li>
-                  If the player lands on a Fields of Destiny: 50/50 chance of
-                  +1/-1 score
-                </li>
-                <li>If the player lands on starting square: +0 score</li>
-              </ul>
+              There is no clear winner in this game (just like there is no
+              victor in war), and you can keep playing till one of the players
+              reach an arbitrary limit on the score, decided before embarking on
+              this quest. A game of 15 points is preferable for short
+              playthroughs.
             </li>
-            <li>First player to 10 points wins!</li>
           </ul>
         </div>
+        <br />
+        <br />
         <div>
           <button class="inverted-button" onClick={this.onClose}>
             Close Instructions
