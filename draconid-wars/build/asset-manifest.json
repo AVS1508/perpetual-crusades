@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/AVS1508/draconid-wars/static/css/main.7908cf07.chunk.css",
-    "main.js": "/AVS1508/draconid-wars/static/js/main.62fa832a.chunk.js",
-    "main.js.map": "/AVS1508/draconid-wars/static/js/main.62fa832a.chunk.js.map",
-    "runtime-main.js": "/AVS1508/draconid-wars/static/js/runtime-main.b8d5d157.js",
-    "runtime-main.js.map": "/AVS1508/draconid-wars/static/js/runtime-main.b8d5d157.js.map",
-    "static/js/2.2e70a77b.chunk.js": "/AVS1508/draconid-wars/static/js/2.2e70a77b.chunk.js",
-    "static/js/2.2e70a77b.chunk.js.map": "/AVS1508/draconid-wars/static/js/2.2e70a77b.chunk.js.map",
-    "index.html": "/AVS1508/draconid-wars/index.html",
-    "precache-manifest.d5225a8d07288261a9881b9b97368498.js": "/AVS1508/draconid-wars/precache-manifest.d5225a8d07288261a9881b9b97368498.js",
-    "service-worker.js": "/AVS1508/draconid-wars/service-worker.js",
-    "static/css/main.7908cf07.chunk.css.map": "/AVS1508/draconid-wars/static/css/main.7908cf07.chunk.css.map",
-    "static/js/2.2e70a77b.chunk.js.LICENSE.txt": "/AVS1508/draconid-wars/static/js/2.2e70a77b.chunk.js.LICENSE.txt"
+    "main.css": "/draconid-wars/static/css/main.7908cf07.chunk.css",
+    "main.js": "/draconid-wars/static/js/main.ef4d5bd4.chunk.js",
+    "main.js.map": "/draconid-wars/static/js/main.ef4d5bd4.chunk.js.map",
+    "runtime-main.js": "/draconid-wars/static/js/runtime-main.e9c0eb8d.js",
+    "runtime-main.js.map": "/draconid-wars/static/js/runtime-main.e9c0eb8d.js.map",
+    "static/js/2.2e70a77b.chunk.js": "/draconid-wars/static/js/2.2e70a77b.chunk.js",
+    "static/js/2.2e70a77b.chunk.js.map": "/draconid-wars/static/js/2.2e70a77b.chunk.js.map",
+    "index.html": "/draconid-wars/index.html",
+    "precache-manifest.a28a9a6280d6b575590ee1b21711ba82.js": "/draconid-wars/precache-manifest.a28a9a6280d6b575590ee1b21711ba82.js",
+    "service-worker.js": "/draconid-wars/service-worker.js",
+    "static/css/main.7908cf07.chunk.css.map": "/draconid-wars/static/css/main.7908cf07.chunk.css.map",
+    "static/js/2.2e70a77b.chunk.js.LICENSE.txt": "/draconid-wars/static/js/2.2e70a77b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8d5d157.js",
+    "static/js/runtime-main.e9c0eb8d.js",
     "static/js/2.2e70a77b.chunk.js",
     "static/css/main.7908cf07.chunk.css",
-    "static/js/main.62fa832a.chunk.js"
+    "static/js/main.ef4d5bd4.chunk.js"
   ]
 }
