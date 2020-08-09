@@ -10,8 +10,8 @@
 - The Board generates based on player choices:
   - Starting Square: Mythic Kingdom of Friendship
   - Squares with Humanoid Terrain (MK: Lands of Fortitude, AW: Places of Power, SR: Forests of Invisibility)
-  - Squares with Draconem Terrain (FR: Fiery Pits, BB: Black Sand, NG: Poisonous Fumes)
-  - Squares of Destiny: Players face-off
+  - Squares with Draconem Terrain (FR: Fiery Pits, BB: Ashy Embers, NG: Poisonous Fumes)
+  - Squares where battles occur: Fields of Destiny
 - Gameplay:
   - Player rolls die.
   - Player moves forward one square up to the number rolled
@@ -29,8 +29,8 @@
 
   - [x] Create-React-App
   - [x] Remove Unnecessary Assets & Files
-  - [ ] Player 1 Chooses a Character
-  - [ ] Player 2 Chooses a Character
+  - [x] Player 1 Chooses a Character
+  - [x] Player 2 Chooses a Character
   - [ ] Generate Game Board
   - [ ] Characters start at "Mythic Kingdom of Friendship"
   - [ ] Alternate between Players
@@ -52,4 +52,5 @@
 * Attributions
   - <a href="https://www.vecteezy.com/free-vector/dragon">Dragon Vectors by Vecteezy</a>
   - <a href="https://www.freepik.com/vectors/retro">Retro vector created by macrovector - www.freepik.com</a>
-
+  - <a href='https://www.freepik.com/vectors/abstract'>Abstract vector created by freepik - www.freepik.com</a>
+  - <a href='https://www.freepik.com/vectors/tree'>Tree vector created by macrovector - www.freepik.com</a>

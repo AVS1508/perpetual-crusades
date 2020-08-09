@@ -1,5 +1,5 @@
-/* eslint-disable require-jsdoc */
 import React, { Component, Fragment } from "react";
+import PlayersDisplay from "../components/PlayersDisplay";
 
 class CharacterSelection extends Component {
   state = {
@@ -27,38 +27,26 @@ class CharacterSelection extends Component {
     }));
   };
 
-  getPlayerRace = (currentPlayerNumber) => {
-    if (currentPlayerNumber % 2 === 1) {
-      return "Humanoid";
-    }
-    return "Draconem";
+  getPlayerRace = (currentPlayerNumber) =>
+    currentPlayerNumber === 1 ? "Humanoid" : "Draconem";
+
+  startGame = () => {
+    this.props.startGame(this.state.players);
   };
 
   render() {
     return (
       <div>
-        <div className="players">
-          {this.state.players.map((player) => (
-            <div key={player.number}>
-              <h3 style={{ textAlign: "center" }}>
-                {this.getPlayerRace(player.number)} Hero
-              </h3>
-              <button className="character" style={{ textDecoration: "none" }}>
-                <img
-                  className="character-image"
-                  src={`./characters/${player.character}.png`}
-                  alt={player.character}
-                />
-                <div style={{ textAlign: "center", fontFamily: "Space Mono" }}>
-                  {player.character}
-                </div>
-              </button>
-            </div>
-          ))}
-        </div>
+        <PlayersDisplay
+          players={this.state.players}
+          getPlayerRace={this.getPlayerRace}
+          onIntroScreen={true}
+        />
         {this.state.readyToStart ? (
           <Fragment>
-            <button className="start-button">Start Game</button>
+            <button onClick={this.startGame} className="button">
+              Start Game
+            </button>
           </Fragment>
         ) : (
           <Fragment>
