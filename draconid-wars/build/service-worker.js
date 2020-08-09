@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/draconid-wars/precache-manifest.a28a9a6280d6b575590ee1b21711ba82.js"
+  "/draconid-wars/precache-manifest.11a37871d3a73304c68cea53b9d3ee55.js"
 );
 
 self.addEventListener('message', (event) => {

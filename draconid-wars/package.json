@@ -1,6 +1,6 @@
 {
-  "homepage": "https://AVS1508.github.io/draconid-wars/",
-  "name": "project",
+  "homepage": "https://AVS1508.github.io/draconid-wars",
+  "name": "draconid-wars",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
