@@ -1,6 +1,6 @@
 # Draconid Wars
 
-Draconid Wars is a 2-player board game based on dice, with a theme loosely set around Dungeons & Dragons.
+Draconid Wars is a 2-player board game based on dice, with a theme loosely set around Dungeons & Dragons. You can play it over here: <a href="https://www.adityavsingh.com/draconid-wars" alt="Draconid Wars">Draconid Wars</a>!
 
 ### The Story Behind the Game
 18 years after the Second Draconid War, there has been a major outbreak of Draconem (Dragon) Pox among the Humanoid races. Humanoids speculate that after the mutual deaths of Humanoid Warlord Slaythurnax and Draconem Overlord Aldone in their climactic battle  in the Second Draconid War, the draconems had vanished but have now come back seeking revenge on all those responsible, and so has the virus they carried during the First Draconid War. A trio of a knight, wizard, and rogue have been commissioned to find out the remaining draconems and kill them, and on the other hand, three draconems have started on their journey to avenge their fallen Overlord. What happens when their paths cross is your and only your destiny to observe. Look excited young adventurers, for you all must not perish in this war!
