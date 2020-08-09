@@ -1,56 +1,39 @@
-- Local 2-player game of Monopoly-except for D&D
-- Humanoid Faction Player Character Choices:
-  - Mighty Knight
-  - Ancient Wizard
-  - Stealthy Rogue
-- Draconem Faction Player Character Choices:
-  - Fiery Red Dragon
-  - Baneful Blue Dragon
-  - Noxious Green Dragon
-- The Board generates based on player choices:
-  - Starting Square: Mythic Kingdom of Friendship
-  - Squares with Humanoid Terrain (MK: Lands of Fortitude, AW: Places of Power, SR: Forests of Invisibility)
-  - Squares with Draconem Terrain (FR: Fiery Pits, BB: Ashy Embers, NG: Poisonous Fumes)
-  - Squares where battles occur: Fields of Destiny
-- Gameplay:
-  - Player rolls die.
-  - Player moves forward one square up to the number rolled
-  - If the player lands on their own color square: +1 Point
-  - If the player lands on the opponent color square:
-    - -1 Point to the Player
-    - +1 Point to the Opponent
-  - If the player lands on a Square of Destiny:
-    - Both players roll the die once
-    - The higher roll wins the difference of the 2 rolls as points
-  - If the player lands on starting square, the player rests
-  - First player to 20 points wins
+# Draconid Wars
 
-* To-Do
+Draconid Wars is a 2-player board game based on dice, with a theme loosely set around Dungeons & Dragons.
 
-  - [x] Create-React-App
-  - [x] Remove Unnecessary Assets & Files
-  - [x] Player 1 Chooses a Character
-  - [x] Player 2 Chooses a Character
-  - [ ] Generate Game Board
-  - [ ] Characters start at "Mythic Kingdom of Friendship"
-  - [ ] Alternate between Players
-    - [ ] Dice Roll
-    - [ ] Move Forward
-    - [ ] Check for Points or Face-Off
+### The Story Behind the Game
+18 years after the Second Draconid War, there has been a major outbreak of Draconem (Dragon) Pox among the Humanoid races. Humanoids speculate that after the mutual deaths of Humanoid Warlord Slaythurnax and Draconem Overlord Aldone in their climactic battle  in the Second Draconid War, the draconems had vanished but have now come back seeking revenge on all those responsible, and so has the virus they carried during the First Draconid War. A trio of a knight, wizard, and rogue have been commissioned to find out the remaining draconems and kill them, and on the other hand, three draconems have started on their journey to avenge their fallen Overlord. What happens when their paths cross is your and only your destiny to observe. Look excited young adventurers, for you all must not perish in this war!
 
-* Fonts Used
+### Game Features
+- __Humanoid Faction__ Character Choices:
+  - __Mighty Knight__ (with their favorite battleground of _Lands of Fortitude_)
+  - __Ancient Wizard__ (with their favorite meditation spots around _Places of Power_)
+  - __Stealthy Rogue__ (with their favorite hiding spot in _Forests of Invisibility_)
+- __Draconem Faction__ Character Choices:
+  - __Fiery Red Dragon__ (with their preferred mating grounds in _Fiery Pits_)
+  - __Baneful Blue Dragon__ (with their preferred resting spot around _Ashy Embers_)
+  - __Noxious Green Dragon__ (with their preferred dining location amidst _Poisonous Fumes_)
+- Neutral Territories: 
+  - The draconems and humans first friendly meeting was held in the _Mythic Kingdom of Friendship_, and therefore, no battles can take place here. (Stable Neutrality)
+  - There exist some battlefields called the _Fields of Destiny_ which belong to neither humanoid nor draconem, where battles occur regularly. (Unstable Neutrality)
 
-  - Rubik
-  - Roboto Mono
+### Instructions
+  - The first player chooses a Humanoid character.
+  - The second player chooses a Draconem character.
+  - The Board appears, and Humanoid character begins by rolling a die!
+  - The player moves ahead the same number of tiles as the number on the die.
+    - If the player lands on their own tile, then their score is incremented by 2.
+    - If the player lands on their opponent's tile, then their score is decremented by 1.
+    - If the player lands on _Fields of Destiny_, they have an equal chance of winning a point or forfeiting a point.
+    - If the player lands on _Mythic Kingdom of Friendship_ square, the player's score is not affected.
+  - There is no clear winner in this game (just like there is no victor in war), and you can keep playing till one of the players reach an arbitrary limit on the score, decided before embarking on this quest. A game of 15 points is preferable for short playthroughs.  
 
-* Technologies
+### Technologies Used
+  - __React__ (for overall front-end design and development)
+  - __CSS Grid Layout__ (for building the board)
 
-  - ReactJS
-  - CSS Grid
-  -
-
-* Attributions
-  - <a href="https://www.vecteezy.com/free-vector/dragon">Dragon Vectors by Vecteezy</a>
-  - <a href="https://www.freepik.com/vectors/retro">Retro vector created by macrovector - www.freepik.com</a>
-  - <a href='https://www.freepik.com/vectors/abstract'>Abstract vector created by freepik - www.freepik.com</a>
-  - <a href='https://www.freepik.com/vectors/tree'>Tree vector created by macrovector - www.freepik.com</a>
+### Attributions
+  - (Draconem Character Illustrations) <a href="https://www.vecteezy.com/free-vector/dragon">Dragon Vectors by Vecteezy</a>
+  - (Humanoid Character Illustrations) <a href="https://www.freepik.com/vectors/retro">Retro vector created by macrovector - www.freepik.com</a>
+  - (Location Illustrations) <a href='https://www.freepik.com/vectors/tree'>Tree vector created by macrovector - www.freepik.com</a>
