@@ -1,16 +1,27 @@
 import React, { Component } from "react";
+
 import PlayersDisplay from "./components/PlayersDisplay";
+import Footer from "./components/Footer";
+import Instructions from "./components/Instructions";
+
 import CharacterSelection from "./containers/CharacterSelection";
 import GameBoard from "./containers/GameBoard";
+
 import "./App.css";
 
 class App extends Component {
   state = {
     players: [],
     gameStarted: false,
+    displayInstruction: false,
     currentPlayer: null,
     tile: null,
-    gameOver: false,
+  };
+
+  toggleInstruction = (event) => {
+    this.setState({
+      displayInstruction: !this.state.displayInstruction,
+    });
   };
 
   startGame = (players) => {
@@ -73,28 +84,53 @@ class App extends Component {
   };
   render() {
     return (
-      <div className="App">
-        <PlayersDisplay
-          players={this.state.players}
-          getPlayerRace={(currentPlayerNumber) =>
-            currentPlayerNumber === 1 ? "Humanoid" : "Draconem"
-          }
-          onIntroScreen={false}
-        />
-        {this.state.gameStarted ? (
-          <>
-            <GameBoard
-              players={this.state.players}
-              currentPlayer={this.state.currentPlayer}
-              tile={this.state.tile}
-              gameOver={this.state.gameOver}
-              movePlayer={this.movePlayer}
-            />
-          </>
-        ) : (
-          <CharacterSelection startGame={this.startGame} />
-        )}
-      </div>
+      <>
+        <div class="header">
+          <button
+            onClick={(event) => {
+              this.toggleInstruction(event);
+            }}
+            className="inverted-button"
+          >
+            Instructions
+          </button>
+          <h1>Draconid Wars</h1>
+          <a
+            className="inverted-button"
+            style={{ textDecoration: "none" }}
+            href="/"
+          >
+            Restart Game
+          </a>
+        </div>
+        <div className="App">
+          <Instructions
+            onClose={this.toggleInstruction}
+            displayInstruction={this.state.displayInstruction}
+          />
+          <PlayersDisplay
+            players={this.state.players}
+            getPlayerRace={(currentPlayerNumber) =>
+              currentPlayerNumber === 1 ? "Humanoid" : "Draconem"
+            }
+            onIntroScreen={false}
+          />
+          {this.state.gameStarted ? (
+            <>
+              <GameBoard
+                players={this.state.players}
+                currentPlayer={this.state.currentPlayer}
+                tile={this.state.tile}
+                gameOver={this.state.gameOver}
+                movePlayer={this.movePlayer}
+              />
+            </>
+          ) : (
+            <CharacterSelection startGame={this.startGame} />
+          )}
+        </div>
+        <Footer />
+      </>
     );
   }
 }
