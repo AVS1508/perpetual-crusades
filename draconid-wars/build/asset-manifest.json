@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/draconid-wars/static/css/main.7908cf07.chunk.css",
-    "main.js": "/draconid-wars/static/js/main.89ce5e5c.chunk.js",
-    "main.js.map": "/draconid-wars/static/js/main.89ce5e5c.chunk.js.map",
+    "main.js": "/draconid-wars/static/js/main.9e5ba69d.chunk.js",
+    "main.js.map": "/draconid-wars/static/js/main.9e5ba69d.chunk.js.map",
     "runtime-main.js": "/draconid-wars/static/js/runtime-main.7a794d4e.js",
     "runtime-main.js.map": "/draconid-wars/static/js/runtime-main.7a794d4e.js.map",
     "static/js/2.aaad0e8c.chunk.js": "/draconid-wars/static/js/2.aaad0e8c.chunk.js",
     "static/js/2.aaad0e8c.chunk.js.map": "/draconid-wars/static/js/2.aaad0e8c.chunk.js.map",
     "index.html": "/draconid-wars/index.html",
-    "precache-manifest.11a37871d3a73304c68cea53b9d3ee55.js": "/draconid-wars/precache-manifest.11a37871d3a73304c68cea53b9d3ee55.js",
+    "precache-manifest.cb70aa071cbd0ad769ce474d9ac63059.js": "/draconid-wars/precache-manifest.cb70aa071cbd0ad769ce474d9ac63059.js",
     "service-worker.js": "/draconid-wars/service-worker.js",
     "static/css/main.7908cf07.chunk.css.map": "/draconid-wars/static/css/main.7908cf07.chunk.css.map",
     "static/js/2.aaad0e8c.chunk.js.LICENSE.txt": "/draconid-wars/static/js/2.aaad0e8c.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7a794d4e.js",
     "static/js/2.aaad0e8c.chunk.js",
     "static/css/main.7908cf07.chunk.css",
-    "static/js/main.89ce5e5c.chunk.js"
+    "static/js/main.9e5ba69d.chunk.js"
   ]
 }

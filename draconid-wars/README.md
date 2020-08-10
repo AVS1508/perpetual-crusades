@@ -1,6 +1,8 @@
 # Draconid Wars
 
-Draconid Wars is a 2-player board game based on dice, with a theme loosely set around Dungeons & Dragons. You can play it over here: <a href="https://www.adityavsingh.com/draconid-wars" alt="Draconid Wars">Draconid Wars</a>!
+Draconid Wars is a 2-player board game based on dice, with a theme loosely set around Dungeons & Dragons. This project was developed as a submission for Roll for Hacking hackathon, held from August 7th - 9th, 2020.
+
+You can play it over here: <a href="https://www.adityavsingh.com/draconid-wars" alt="Draconid Wars">Draconid Wars</a>!
 
 ### The Story Behind the Game
 18 years after the Second Draconid War, there has been a major outbreak of Draconem (Dragon) Pox among the Humanoid races. Humanoids speculate that after the mutual deaths of Humanoid Warlord Slaythurnax and Draconem Overlord Aldone in their climactic battle  in the Second Draconid War, the draconems had vanished but have now come back seeking revenge on all those responsible, and so has the virus they carried during the First Draconid War. A trio of a knight, wizard, and rogue have been commissioned to find out the remaining draconems and kill them, and on the other hand, three draconems have started on their journey to avenge their fallen Overlord. What happens when their paths cross is your and only your destiny to observe. Look excited young adventurers, for you all must not perish in this war!
@@ -34,7 +36,7 @@ Draconid Wars is a 2-player board game based on dice, with a theme loosely set a
   - __Fiery Red Dragon__ (with their preferred mating grounds in _Fiery Pits_)
   - __Baneful Blue Dragon__ (with their preferred resting spot around _Ashy Embers_)
   - __Noxious Green Dragon__ (with their preferred dining location amidst _Poisonous Fumes_)
-- Neutral Territories: 
+- __Neutral Territories__: 
   - The draconems and humans first friendly meeting was held in the _Mythic Kingdom of Friendship_, and therefore, no battles can take place here. (Stable Neutrality)
   - There exist some battlefields called the _Fields of Destiny_ which belong to neither humanoid nor draconem, where battles occur regularly. (Unstable Neutrality)
 
@@ -52,9 +54,10 @@ Draconid Wars is a 2-player board game based on dice, with a theme loosely set a
 ### Technologies Used
   - __React__ (for overall front-end design and development)
   - __CSS Grid Layout__ (for building the board)
+  - __GitHub Pages__ (for hosting the website)
 
 ### Attributions
-  - (Draconem Character Illustrations) <a href="https://www.vecteezy.com/free-vector/dragon">Dragon Vectors by Vecteezy</a>
-  - (Humanoid Character Illustrations) <a href="https://www.freepik.com/vectors/retro">Retro vector created by macrovector - www.freepik.com</a>
-  - (Location Illustrations) <a href='https://www.freepik.com/vectors/tree'>Tree vector created by macrovector - www.freepik.com</a>
+  - (_Draconem Character Illustrations_) <a href="https://www.vecteezy.com/free-vector/dragon">Dragon Vectors by Vecteezy</a>
+  - (_Humanoid Character Illustrations_) <a href="https://www.freepik.com/vectors/retro">Retro vector created by macrovector - www.freepik.com</a>
+  - (_Location Illustrations_) <a href='https://www.freepik.com/vectors/tree'>Tree vector created by macrovector - www.freepik.com</a>
 

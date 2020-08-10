@@ -103,34 +103,34 @@ class App extends Component {
             Restart Game
           </a>
         </div>
-        {(this.state.displayInstruction) ? (
-        <Instructions
-          onClose={this.toggleInstruction}
-          displayInstruction={this.state.displayInstruction}
-        />
-        ) : (
-        <div className="App">
-          <PlayersDisplay
-            players={this.state.players}
-            getPlayerRace={(currentPlayerNumber) =>
-              currentPlayerNumber === 1 ? "Humanoid" : "Draconem"
-            }
-            onIntroScreen={false}
+        {this.state.displayInstruction ? (
+          <Instructions
+            onClose={this.toggleInstruction}
+            displayInstruction={this.state.displayInstruction}
           />
-          {this.state.gameStarted ? (
-            <>
-              <GameBoard
-                players={this.state.players}
-                currentPlayer={this.state.currentPlayer}
-                tile={this.state.tile}
-                gameOver={this.state.gameOver}
-                movePlayer={this.movePlayer}
-              />
-            </>
-          ) : (
-            <CharacterSelection startGame={this.startGame} />
-          )}
-        </div>
+        ) : (
+          <div className="App">
+            <PlayersDisplay
+              players={this.state.players}
+              getPlayerRace={(currentPlayerNumber) =>
+                currentPlayerNumber === 1 ? "Humanoid" : "Draconem"
+              }
+              onIntroScreen={false}
+            />
+            {this.state.gameStarted ? (
+              <>
+                <GameBoard
+                  players={this.state.players}
+                  currentPlayer={this.state.currentPlayer}
+                  tile={this.state.tile}
+                  gameOver={this.state.gameOver}
+                  movePlayer={this.movePlayer}
+                />
+              </>
+            ) : (
+              <CharacterSelection startGame={this.startGame} />
+            )}
+          </div>
         )}
         <Footer />
       </>

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb6086fc286a0b79c25914e3bff2c041",
+    "revision": "fd3ddc403de52fb7d8f6b01684e9c8c5",
     "url": "/draconid-wars/index.html"
   },
   {
-    "revision": "36aa7eb811295bb67c9f",
+    "revision": "7590790d48acf79242bb",
     "url": "/draconid-wars/static/css/main.7908cf07.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/draconid-wars/static/js/2.aaad0e8c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "36aa7eb811295bb67c9f",
-    "url": "/draconid-wars/static/js/main.89ce5e5c.chunk.js"
+    "revision": "7590790d48acf79242bb",
+    "url": "/draconid-wars/static/js/main.9e5ba69d.chunk.js"
   },
   {
     "revision": "acc2e0ffb01d524c4957",
