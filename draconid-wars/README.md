@@ -56,7 +56,7 @@ You can play it over here: <a href="https://www.adityavsingh.com/draconid-wars" 
   - If the player lands on their opponent's tile, then their score is decremented by 1.
   - If the player lands on _Fields of Destiny_, they have an equal chance of winning a point or forfeiting a point.
   - If the player lands on _Mythic Kingdom of Friendship_, the player's score is not affected.
-- <p align="justify">There is no clear winner in this game (just like there is no victor in war), and you can keep playing till one of the players reach an arbitrary limit on the score, decided before embarking on this quest. A game of 15 points is preferable for short playthroughs.</p>
+- There is no clear winner in this game (just like there is no victor in war), and you can keep playing till one of the players reach an arbitrary limit on the score, decided before embarking on this quest. A game of 15 points is preferable for short playthroughs.
 
 ### Technologies Used
 
