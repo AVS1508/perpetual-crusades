@@ -69,3 +69,7 @@ You can play it over here: <a href="https://www.adityavsingh.com/draconid-wars" 
 - (_Draconem Character Illustrations_) <a href="https://www.vecteezy.com/free-vector/dragon">Dragon Vectors by Vecteezy</a>
 - (_Humanoid Character Illustrations_) <a href="https://www.freepik.com/vectors/retro">Retro vector created by macrovector - www.freepik.com</a>
 - (_Location Illustrations_) <a href='https://www.freepik.com/vectors/tree'>Tree vector created by macrovector - www.freepik.com</a>
+
+### Suggestions
+
+Please hit me up at avsingh@umass.edu if you have any feedback or ideas for the website. Leave a :star: &nbsp;if you like it!
