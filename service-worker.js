@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/penn-apps-submission/precache-manifest.014c599d102f7aa43f643b58807151ae.js"
+  "/penn-apps-submission/precache-manifest.2b90eaf517d704f7dea186ba1d5d0675.js"
 );
 
 self.addEventListener('message', (event) => {
