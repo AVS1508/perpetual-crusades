@@ -12,7 +12,7 @@
   display: flex;
   justify-content: space-around;
   color: white;
-  background-color: #003D5B;
+  background-color: #226CE0;
   align-items: center;
   height: 8vh;
   width: 100vw;
@@ -23,7 +23,7 @@
   position: relative;
   display: flex;
   color: white;
-  background-color: #003D5B;
+  background-color: #226CE0;
   justify-content: center;
   align-items: center;
   height: 4vh;
@@ -32,7 +32,7 @@
 
 .character {
   background-color: white;
-  border: 0.25em solid #003D5B;
+  border: 0.25em solid #226CE0;
   border-radius: 3em;
   cursor: pointer;
   padding: 1em;
@@ -65,9 +65,9 @@
   text-align: center;
   position: relative;
   display: block;
-  color: #003D5B;
+  color: #226CE0;
   background-color: white;
-  border: 0.25em solid #003D5B;
+  border: 0.25em solid #226CE0;
   border-radius: 50vw;
   font: 400 larger 'Space Mono';
   text-transform: uppercase;
@@ -76,7 +76,7 @@
 
 .button:hover {
   color: white;
-  background-color: #003D5B;
+  background-color: #226CE0;
   border: 0.25em solid white;
 }
 
@@ -87,7 +87,7 @@
   position: relative;
   display: block;
   color: white;
-  background-color: #003D5B;
+  background-color: #226CE0;
   border: 0.125em solid white;
   border-radius: 50vw;
   font: 400 larger 'Space Mono';
@@ -96,9 +96,9 @@
 }
 
 .inverted-button:hover {
-  color: #003D5B;
+  color: #226CE0;
   background-color: white;
-  border: 0.25em solid #003D5B;
+  border: 0.25em solid #226CE0;
 }
 
 .player-score {
@@ -183,7 +183,7 @@ game-tile::before {
   transform: scale(1);
   opacity: 1;
   visibility: visible;
-  color: #003D5B;
+  color: #226CE0;
   justify-content: center;
   align-items: center;
 }

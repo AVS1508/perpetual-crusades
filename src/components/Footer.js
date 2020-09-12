@@ -3,7 +3,13 @@ import React from "react";
 const Footer = () => {
   return (
     <div class="footer">
-      <h6>Created by Aditya Vikram Singh</h6>
+      <h5>
+        Created with <span>❤️</span> by{" "}
+        <a style={{ color: "white" }} href="https://www.adityavsingh.com/">
+          Aditya Vikram Singh
+        </a>
+        , 2020
+      </h5>
     </div>
   );
 };

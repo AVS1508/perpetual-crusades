@@ -94,7 +94,7 @@ class App extends Component {
           >
             Instructions
           </button>
-          <h1>Draconid Wars</h1>
+          <h1>Perpetual Crusades</h1>
           <a
             className="inverted-button"
             style={{ textDecoration: "none" }}
