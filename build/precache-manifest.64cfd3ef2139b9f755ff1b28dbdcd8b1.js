@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ae8bd1440be89fb8234dfc84d10eda7",
+    "revision": "8e2ef86693b2e5d23e6945007f12471c",
     "url": "/perpetual-crusades/index.html"
   },
   {
-    "revision": "117fca84b101fdecece8",
+    "revision": "fea24bc89cc551a568d3",
     "url": "/perpetual-crusades/static/css/main.e22ff2d7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/perpetual-crusades/static/js/2.221e7dcc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "117fca84b101fdecece8",
-    "url": "/perpetual-crusades/static/js/main.6862ec8a.chunk.js"
+    "revision": "fea24bc89cc551a568d3",
+    "url": "/perpetual-crusades/static/js/main.cff9eecf.chunk.js"
   },
   {
     "revision": "83820e1bd3db49e5fa44",
