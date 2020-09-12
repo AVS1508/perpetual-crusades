@@ -110,11 +110,11 @@ class GameBoard extends Component {
             key={index}
           >
             {tile.type !== "Start" ? (
-              <img alt={tile.type} src={`./tiles/${tile.type}.png`} />
+              <img alt={tile.type} src={`./tiles/${tile.type}.jpg`} />
             ) : (
               <img
                 alt="Start"
-                src={"./tiles/Mythic Kingdom of Friendship.png"}
+                src={"./tiles/Mythic Kingdom of Friendship.jpg"}
               />
             )}
           </div>
