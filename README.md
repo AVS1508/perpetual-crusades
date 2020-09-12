@@ -1,13 +1,13 @@
-# Draconid Wars
+# Perpetual Crusades
 
 [![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/AVS1508/draconid-wars/)
 [![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://www.adityavsingh.com/draconid-wars)
 [![Author](https://img.shields.io/badge/Author-Aditya%20Vikram%20Singh-blue.svg)](https://www.linkedin.com/in/AVS1508/)
-[![Latest Release](https://img.shields.io/badge/Latest%20Release-12%20August%202020-yellow.svg)](https://github.com/AVS1508/draconid-wars/commit/master)
+[![Latest Release](https://img.shields.io/badge/Latest%20Release-12%20September%202020-yellow.svg)](https://github.com/AVS1508/draconid-wars/commit/master)
 
-<p align="justify">Draconid Wars is a 2-player board game based on dice, with a theme loosely set around Dungeons & Dragons. This project was initially developed as a submission for Roll for Hacking hackathon, held from August 7th - 9th, 2020.</p>
+<p align="justify">Perpetual Crusades is a 2-player board game based on dice, with a theme loosely set around Dungeons & Dragons. This project was developed as a submission for Penn Apps XXI, held from September 11th - 13th, 2020.</p>
 
-You can play it over here: <a href="https://www.adityavsingh.com/draconid-wars" alt="Draconid Wars">Draconid Wars</a>!
+You can play it over here: <a href="https://www.adityavsingh.com/perpetual-crusades" alt="Perpetual Crusades">Perpetual Crusades</a>!
 
 ### The Story Behind the Game
 
