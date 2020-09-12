@@ -12,18 +12,17 @@
   display: flex;
   justify-content: space-around;
   color: white;
-  background-color: #226CE0;
+  background-color: #226ce0;
   align-items: center;
   height: 8vh;
   width: 100vw;
-
 }
 
 .footer {
   position: relative;
   display: flex;
   color: white;
-  background-color: #226CE0;
+  background-color: #226ce0;
   justify-content: center;
   align-items: center;
   height: 4vh;
@@ -32,7 +31,7 @@
 
 .character {
   background-color: white;
-  border: 0.25em solid #226CE0;
+  border: 0.25em solid #226ce0;
   border-radius: 3em;
   cursor: pointer;
   padding: 1em;
@@ -53,6 +52,11 @@
   height: 5em;
 }
 
+.character-intro,
+.character-display {
+  color: #226ce0;
+}
+
 .players {
   width: 100%;
   display: flex;
@@ -65,18 +69,18 @@
   text-align: center;
   position: relative;
   display: block;
-  color: #226CE0;
+  color: #226ce0;
   background-color: white;
-  border: 0.25em solid #226CE0;
+  border: 0.25em solid #226ce0;
   border-radius: 50vw;
-  font: 400 larger 'Space Mono';
+  font: 400 larger "Space Mono";
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .button:hover {
   color: white;
-  background-color: #226CE0;
+  background-color: #226ce0;
   border: 0.25em solid white;
 }
 
@@ -87,18 +91,18 @@
   position: relative;
   display: block;
   color: white;
-  background-color: #226CE0;
+  background-color: #226ce0;
   border: 0.125em solid white;
   border-radius: 50vw;
-  font: 400 larger 'Space Mono';
+  font: 400 larger "Space Mono";
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .inverted-button:hover {
-  color: #226CE0;
+  color: #226ce0;
   background-color: white;
-  border: 0.25em solid #226CE0;
+  border: 0.25em solid #226ce0;
 }
 
 .player-score {
@@ -123,18 +127,17 @@
 
 game-tile::before {
   display: block;
-  content: '';
+  content: "";
   padding-bottom: 100%;
 }
 
-.game-tile>img {
+.game-tile > img {
   width: 100%;
   height: 100%;
   margin: 0;
   border-radius: 0.25em;
   object-fit: contain;
 }
-
 
 .player-character {
   display: flex;
@@ -183,7 +186,7 @@ game-tile::before {
   transform: scale(1);
   opacity: 1;
   visibility: visible;
-  color: #226CE0;
+  color: #226ce0;
   justify-content: center;
   align-items: center;
 }
