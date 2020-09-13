@@ -46,13 +46,13 @@ class App extends Component {
       const landingTile = tiles[position % tiles.length];
       const increaseScore = (function () {
         if (landingTile.type === currentPlayer.character) {
-          return 2;
+          return 3;
         } else if (landingTile.type === "Start") {
           return 0;
         } else if (landingTile.type !== "Fields of Destiny") {
           return -1;
         } else {
-          return Math.floor(2 * Math.random()) === 0 ? 1 : -1;
+          return Math.floor(2 * Math.random()) === 0 ? 2 : -2;
         }
       })();
 

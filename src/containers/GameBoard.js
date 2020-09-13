@@ -147,7 +147,8 @@ class GameBoard extends Component {
                 score
               </h3>
               <h5>
-                {this.props.tile.player.character} landed on{" "}
+                {this.props.tile.player.character} reached
+                <br />
                 {this.props.tile.type}'s stronghold!
               </h5>
             </>
