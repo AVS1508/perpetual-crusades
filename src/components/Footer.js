@@ -4,7 +4,11 @@ const Footer = () => {
   return (
     <div class="footer">
       <h5>
-        Created with <span>❤️</span> by{" "}
+        Created with{" "}
+        <span role="img" aria-aria-label="heart">
+          ❤️
+        </span>{" "}
+        by{" "}
         <a style={{ color: "white" }} href="https://www.adityavsingh.com/">
           Aditya Vikram Singh
         </a>
