@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/perpetual-crusades/static/css/main.0fe01d22.chunk.css",
+    "main.css": "/perpetual-crusades/static/css/main.11af2a3f.chunk.css",
     "main.js": "/perpetual-crusades/static/js/main.cff9eecf.chunk.js",
     "main.js.map": "/perpetual-crusades/static/js/main.cff9eecf.chunk.js.map",
     "runtime-main.js": "/perpetual-crusades/static/js/runtime-main.8e7ddac1.js",
@@ -8,15 +8,15 @@
     "static/js/2.221e7dcc.chunk.js": "/perpetual-crusades/static/js/2.221e7dcc.chunk.js",
     "static/js/2.221e7dcc.chunk.js.map": "/perpetual-crusades/static/js/2.221e7dcc.chunk.js.map",
     "index.html": "/perpetual-crusades/index.html",
-    "precache-manifest.f13813463aa729f6e756a7f237be961c.js": "/perpetual-crusades/precache-manifest.f13813463aa729f6e756a7f237be961c.js",
+    "precache-manifest.8f10fc2e1f58b20242838bb6675a6aa8.js": "/perpetual-crusades/precache-manifest.8f10fc2e1f58b20242838bb6675a6aa8.js",
     "service-worker.js": "/perpetual-crusades/service-worker.js",
-    "static/css/main.0fe01d22.chunk.css.map": "/perpetual-crusades/static/css/main.0fe01d22.chunk.css.map",
+    "static/css/main.11af2a3f.chunk.css.map": "/perpetual-crusades/static/css/main.11af2a3f.chunk.css.map",
     "static/js/2.221e7dcc.chunk.js.LICENSE.txt": "/perpetual-crusades/static/js/2.221e7dcc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8e7ddac1.js",
     "static/js/2.221e7dcc.chunk.js",
-    "static/css/main.0fe01d22.chunk.css",
+    "static/css/main.11af2a3f.chunk.css",
     "static/js/main.cff9eecf.chunk.js"
   ]
 }
