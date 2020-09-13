@@ -152,11 +152,13 @@ class GameBoard extends Component {
                 {this.props.tile.player.character}:{this.props.tile.points}{" "}
                 score
               </h3>
+              <br />
               <h5>
                 {this.props.tile.player.character} reached
                 <br />
                 {this.props.tile.type}'s stronghold!
               </h5>
+              <br />
             </div>
           ) : (
             ""
