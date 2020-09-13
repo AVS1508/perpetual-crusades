@@ -98,7 +98,7 @@ class App extends Component {
           <a
             className="inverted-button"
             style={{ textDecoration: "none" }}
-            href="\!"
+            href=""
           >
             Restart Game
           </a>
