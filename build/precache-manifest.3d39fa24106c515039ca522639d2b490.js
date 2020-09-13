@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "23198769ba71d1da92a0c466faebf374",
+    "revision": "f083fb95ad1a6e94bb96334093fc5c52",
     "url": "/perpetual-crusades/index.html"
   },
   {

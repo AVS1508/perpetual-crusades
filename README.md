@@ -49,26 +49,28 @@ You can play it over here: <a href="https://www.adityavsingh.com/perpetual-crusa
 ### Instructions
 
 - The first player chooses a Humanoid character.
-- The second player chooses a Draconem character.
+- The second player chooses a Dragon character.
 - The Board appears, and Humanoid character begins by rolling a die!
 - The player moves ahead the same number of tiles as the number on the die.
-  - If the player lands on their own tile, then their score is incremented by 2.
+  - If the player lands on their own tile, then their score is incremented by 3.
   - If the player lands on their opponent's tile, then their score is decremented by 1.
-  - If the player lands on _Fields of Destiny_, they have an equal chance of winning a point or forfeiting a point.
-  - If the player lands on _Mythic Kingdom of Friendship_, the player's score is not affected.
-- There is no clear winner in this game (just like there is no victor in war), and you can keep playing till one of the players reach an arbitrary limit on the score, decided before embarking on this quest. A game of 15 points is preferable for short playthroughs.
+  - If the player lands on _Fields of Destiny_, they have an equal chance of gaining or losing 2 points.
+  - If the player lands on _Mythic Kingdom of Friendship_ (start), the player's score is not affected.
+- The first player to reach 20 points wins the game!
 
 ### Technologies Used
 
-- **React** (for overall front-end design and development)
-- **CSS Grid Layout** (for building the board)
-- **GitHub Pages** (for hosting the website)
+- [**React**](https://reactjs.org/) (for overall front-end design of the game)
+- [**JSX**](https://reactjs.org/docs/introducing-jsx.html) (for gameplay logic and conditional rendering)
+- [**CSS Grid Layout**](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout#:~:text=CSS%20Grid%20Layout%20excels%20at,elements%20into%20columns%20and%20rows) (for building the game board)
+- [**GitHub Pages**](https://pages.github.com/) (for hosting the web application)
 
 ### Attributions
 
-- (_Draconem Character Illustrations_) <a href="https://www.vecteezy.com/free-vector/dragon">Dragon Vectors by Vecteezy</a>
-- (_Humanoid Character Illustrations_) <a href="https://www.freepik.com/vectors/retro">Retro vector created by macrovector - www.freepik.com</a>
-- (_Location Illustrations_) <a href='https://www.freepik.com/vectors/tree'>Tree vector created by macrovector - www.freepik.com</a>
+- [_Favicon Imagery_ by Freepik](https://www.freepik.com/vectors/template)
+- [_Dragon Character Illustrations_ by macrovector](https://www.freepik.com/vectors/dragon)
+- [_Humanoid Character Illustrations_ by macrovector](https://www.freepik.com/vectors/retro)
+- [_Location Illustrations_ by macrovector](https://www.freepik.com/vectors/tree)
 
 ### Suggestions
 
