@@ -5,7 +5,7 @@ const Footer = () => {
     <div class="footer">
       <h5>
         Created with{" "}
-        <span role="img" aria-aria-label="heart">
+        <span role="img" aria-label="heart">
           ❤️
         </span>{" "}
         by{" "}

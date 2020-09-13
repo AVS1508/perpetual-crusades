@@ -141,7 +141,13 @@ class GameBoard extends Component {
         })}
         <div className="board-center">
           {this.props.tile ? (
-            <>
+            <div
+              style={{
+                textAlign: "center",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
               <h3>
                 {this.props.tile.player.character}:{this.props.tile.points}{" "}
                 score
@@ -151,15 +157,34 @@ class GameBoard extends Component {
                 <br />
                 {this.props.tile.type}'s stronghold!
               </h5>
-            </>
+            </div>
           ) : (
             ""
           )}
-          <h5> {this.props.currentPlayer.character}, roll the dice! 🎲</h5>
-          <p className="dice-thrown">{this.state.diceDisplay}</p>
-          <button onClick={this.diceThrow} className="button">
-            Dice Roll!
-          </button>
+          {this.props.tile && this.props.tile.player.score >= 20 ? (
+            <div
+              style={{
+                textAlign: "center",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <img
+                className="character-image"
+                src={`./characters/${this.props.tile.player.character}.png`}
+                alt={this.props.tile.player.character}
+              />
+              <h3>{this.props.tile.player.character} won!</h3>
+            </div>
+          ) : (
+            <>
+              <h5> {this.props.currentPlayer.character}, roll the dice! 🎲</h5>
+              <p className="dice-thrown">{this.state.diceDisplay}</p>
+              <button onClick={this.diceThrow} className="button">
+                Dice Roll!
+              </button>
+            </>
+          )}
         </div>
       </div>
     );
