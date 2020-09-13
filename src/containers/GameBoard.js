@@ -180,11 +180,15 @@ class GameBoard extends Component {
           ) : (
             <>
               <h5> {this.props.currentPlayer.character}, roll the dice! 🎲</h5>
-              <img
-                className="dice-thrown"
-                src={`./dice/${this.state.diceDisplay}.png`}
-                alt={this.state.diceDisplay}
-              />
+              {this.state.diceDisplay ? (
+                <img
+                  className="dice-thrown"
+                  src={`./dice/${this.state.diceDisplay}.png`}
+                  alt={this.state.diceDisplay}
+                />
+              ) : (
+                ""
+              )}
               <button onClick={this.diceThrow} className="button">
                 Dice Roll!
               </button>
