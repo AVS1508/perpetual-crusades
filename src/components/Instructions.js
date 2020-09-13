@@ -1,6 +1,27 @@
 import React, { Component } from "react";
 
 class Instructions extends Component {
+  state = {
+    characters: [
+      "Ancient Wizard",
+      "Mighty Knight",
+      "Stealthy Rogue",
+      "Baneful Blue Dragon",
+      "Fiery Red Dragon",
+      "Noxious Green Dragon",
+    ],
+    tiles: [
+      "Mythic Kingdom of Friendship",
+      "Ancient Wizard",
+      "Mighty Knight",
+      "Stealthy Rogue",
+      "Baneful Blue Dragon",
+      "Fiery Red Dragon",
+      "Noxious Green Dragon",
+      "Fields of Destiny",
+    ],
+  };
+
   onClose = (event) => {
     this.props.onClose(event);
   };
@@ -14,6 +35,38 @@ class Instructions extends Component {
         <br />
         <br />
         <div class="content">
+          <ul
+            style={{
+              textAlign: "center",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            {this.state.characters.map((character) => (
+              <img
+                className="character"
+                src={`./characters/${character}.png`}
+                width="75px"
+                height="auto"
+              />
+            ))}
+          </ul>
+          <ul
+            style={{
+              textAlign: "center",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            {this.state.tiles.map((tile) => (
+              <img
+                className="character"
+                src={`./tiles/${tile}.jpg`}
+                width="75px"
+                height="auto"
+              />
+            ))}
+          </ul>
           <ul>
             <li>The first player chooses a Humanoid character.</li>
             <li>The second player chooses a Dragon character.</li>
@@ -26,7 +79,7 @@ class Instructions extends Component {
               <ul>
                 <li>
                   If the player lands on their own tile, then their score is
-                  incremented by 2.
+                  incremented by 3.
                 </li>
                 <li>
                   If the player lands on their opponent's tile, then their score
@@ -34,21 +87,15 @@ class Instructions extends Component {
                 </li>
                 <li>
                   If the player lands on Fields of Destiny, they have an equal
-                  chance of winning a point or forfeiting a point.
+                  chance of gaining or losing 2 points.
                 </li>
                 <li>
-                  If the player lands on Mythic Kingdom of Friendship, the
-                  player's score is not affected.
+                  If the player lands on Mythic Kingdom of Friendship (start),
+                  the player's score is not affected.
                 </li>
               </ul>
             </li>
-            <li>
-              There is no clear winner in this game (just like there is no
-              victor in war), and you can keep playing till one of the players
-              reach an arbitrary limit on the score, decided before embarking on
-              this quest. A game of 15 points is preferable for short
-              playthroughs.
-            </li>
+            <li>The first player to reach 20 points wins the game!</li>
           </ul>
         </div>
         <br />
