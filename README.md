@@ -18,18 +18,24 @@ You can play it over here: <a href="https://www.adityavsingh.com/perpetual-crusa
 <table>
 <tr>
 <td>
-<img src="" alt="Introduction Screen">
+<img src="" alt="Introduction">
 </td>
 <td>
-<img src="" alt="Start Game Screen">
+<img src="" alt="Instructions">
+</td>
+<td>
+<img src="" alt="Start Game">
 </td>
 </tr>
 <tr>
 <td>
-<img src="" alt="Game Starting Screen">
+<img src="" alt="Gameplay Start">
 </td>
 <td>
-<img src="" alt="Gameplay In-Session Screen">
+<img src="" alt="Gameplay In-Progress">
+</td>
+<td>
+<img src="" alt="Game Over">
 </td>
 </tr>
 </table>
