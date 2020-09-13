@@ -18,24 +18,24 @@ You can play it over here: <a href="https://www.adityavsingh.com/perpetual-crusa
 <table>
 <tr>
 <td>
-<img src="" alt="Introduction">
+<img src="https://raw.githubusercontent.com/AVS1508/perpetual-crusades/master/images/%231%20Introduction.jpg" alt="Introduction">
 </td>
 <td>
-<img src="" alt="Instructions">
+<img src="https://raw.githubusercontent.com/AVS1508/perpetual-crusades/master/images/%232%20Instructions.jpg" alt="Instructions">
 </td>
 <td>
-<img src="" alt="Start Game">
+<img src="https://raw.githubusercontent.com/AVS1508/perpetual-crusades/master/images/%233%20Start%20Game.jpg" alt="Start Game">
 </td>
 </tr>
 <tr>
 <td>
-<img src="" alt="Gameplay Start">
+<img src="https://raw.githubusercontent.com/AVS1508/perpetual-crusades/master/images/%234%20Gameplay%20Start.jpg" alt="Gameplay Start">
 </td>
 <td>
-<img src="" alt="Gameplay In-Progress">
+<img src="https://raw.githubusercontent.com/AVS1508/perpetual-crusades/master/images/%235%20Gameplay%20In-Progress.jpg" alt="Gameplay In-Progress">
 </td>
 <td>
-<img src="" alt="Game Over">
+<img src="https://raw.githubusercontent.com/AVS1508/perpetual-crusades/master/images/%236%20Game%20Over.jpg" alt="Game Over">
 </td>
 </tr>
 </table>
