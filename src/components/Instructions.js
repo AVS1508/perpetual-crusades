@@ -48,6 +48,7 @@ class Instructions extends Component {
                 src={`./characters/${character}.png`}
                 width="75px"
                 height="auto"
+                alt={character}
               />
             ))}
           </ul>
@@ -64,6 +65,7 @@ class Instructions extends Component {
                 src={`./tiles/${tile}.jpg`}
                 width="75px"
                 height="auto"
+                alt={tile}
               />
             ))}
           </ul>

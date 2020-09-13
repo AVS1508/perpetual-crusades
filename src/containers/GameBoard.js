@@ -75,13 +75,12 @@ class GameBoard extends Component {
   }
 
   diceThrow = () => {
-    const dice = ["⚀", "⚁", "⚂", "⚃", "⚄", "⚅"];
-    const choice = Math.floor(6 * Math.random());
-    const diceDisplay = dice[choice];
+    const choice = Math.floor(6 * Math.random()) + 1;
+    const diceDisplay = choice;
     this.setState({
       diceDisplay,
     });
-    this.props.movePlayer(choice + 1, this.state.tiles);
+    this.props.movePlayer(choice, this.state.tiles);
   };
 
   render() {
@@ -181,7 +180,11 @@ class GameBoard extends Component {
           ) : (
             <>
               <h5> {this.props.currentPlayer.character}, roll the dice! 🎲</h5>
-              <p className="dice-thrown">{this.state.diceDisplay}</p>
+              <img
+                className="dice-thrown"
+                src={`./dice/${this.state.diceDisplay}.png`}
+                alt={this.state.diceDisplay}
+              />
               <button onClick={this.diceThrow} className="button">
                 Dice Roll!
               </button>

@@ -172,7 +172,9 @@ game-tile::before {
 }
 
 .dice-thrown {
-  font-size: 16vh;
+  margin: 1em;
+  width: 2em;
+  height: auto;
 }
 
 .instructions {
