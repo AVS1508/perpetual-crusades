@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/perpetual-crusades/precache-manifest.e74ed4398e85acb1c553eeac5d868325.js"
+  "/perpetual-crusades/precache-manifest.b909e83e2c10bf6e0a5da2a45567a276.js"
 );
 
 self.addEventListener('message', (event) => {
