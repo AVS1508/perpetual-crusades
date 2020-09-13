@@ -5,7 +5,7 @@
 [![Author](https://img.shields.io/badge/Author-Aditya%20Vikram%20Singh-blue.svg)](https://www.linkedin.com/in/AVS1508/)
 [![Latest Release](https://img.shields.io/badge/Latest%20Release-12%20September%202020-yellow.svg)](https://github.com/AVS1508/perpetual-crusades/commit/master)
 
-<p align="justify">Perpetual Crusades is a 2-player board game based on dice, with a theme loosely set around Dungeons & Dragons. This project was developed as a submission for Penn Apps XXI, held from September 11th - 13th, 2020.</p>
+<p align="justify">Perpetual Crusades is a 2-player Online Dice-based Board Game, with a theme loosely set around Dungeons & Dragons. This project was developed as a submission for Penn Apps XXI, held from September 11th - 13th, 2020.</p>
 
 You can play it over here: <a href="https://www.adityavsingh.com/perpetual-crusades" alt="Perpetual Crusades">Perpetual Crusades</a>!
 
