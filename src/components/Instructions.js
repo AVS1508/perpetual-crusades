@@ -16,7 +16,7 @@ class Instructions extends Component {
         <div class="content">
           <ul>
             <li>The first player chooses a Humanoid character.</li>
-            <li>The second player chooses a Draconem character.</li>
+            <li>The second player chooses a Dragon character.</li>
             <li>
               The Board appears, and Humanoid character begins by rolling a die!
             </li>

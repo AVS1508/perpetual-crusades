@@ -18,9 +18,9 @@ class GameBoard extends Component {
   }
 
   tileGenerator() {
-    // Destructuring construct to obtain Humanoid and Draconem characters from props
+    // Destructuring construct to obtain Humanoid and Dragon characters from props
     const {
-      players: [Humanoid, Draconem],
+      players: [Humanoid, Dragon],
     } = this.props;
     // Initializing board tiles with starting tile
     const tiles = [
@@ -50,7 +50,7 @@ class GameBoard extends Component {
           ? "Fields of Destiny"
           : index % 3 === 1
           ? Humanoid.character
-          : Draconem.character;
+          : Dragon.character;
 
       // Finally push the new tile to array of tiles
       tiles.push(tile);

@@ -4,7 +4,7 @@ import PlayersDisplay from "../components/PlayersDisplay";
 class CharacterSelection extends Component {
   state = {
     characters: {
-      Draconem: [
+      Dragon: [
         "Baneful Blue Dragon",
         "Fiery Red Dragon",
         "Noxious Green Dragon",
@@ -28,7 +28,7 @@ class CharacterSelection extends Component {
   };
 
   getPlayerRace = (currentPlayerNumber) =>
-    currentPlayerNumber === 1 ? "Humanoid" : "Draconem";
+    currentPlayerNumber === 1 ? "Humanoid" : "Dragon";
 
   startGame = () => {
     this.props.startGame(this.state.players);

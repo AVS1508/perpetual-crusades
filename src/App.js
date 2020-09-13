@@ -113,7 +113,7 @@ class App extends Component {
             <PlayersDisplay
               players={this.state.players}
               getPlayerRace={(currentPlayerNumber) =>
-                currentPlayerNumber === 1 ? "Humanoid" : "Draconem"
+                currentPlayerNumber === 1 ? "Humanoid" : "Dragon"
               }
               onIntroScreen={false}
             />
