@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/perpetual-crusades/static/css/main.806bb5ab.chunk.css",
-    "main.js": "/perpetual-crusades/static/js/main.32fc2a96.chunk.js",
-    "main.js.map": "/perpetual-crusades/static/js/main.32fc2a96.chunk.js.map",
+    "main.js": "/perpetual-crusades/static/js/main.b329d130.chunk.js",
+    "main.js.map": "/perpetual-crusades/static/js/main.b329d130.chunk.js.map",
     "runtime-main.js": "/perpetual-crusades/static/js/runtime-main.8e7ddac1.js",
     "runtime-main.js.map": "/perpetual-crusades/static/js/runtime-main.8e7ddac1.js.map",
     "static/js/2.221e7dcc.chunk.js": "/perpetual-crusades/static/js/2.221e7dcc.chunk.js",
     "static/js/2.221e7dcc.chunk.js.map": "/perpetual-crusades/static/js/2.221e7dcc.chunk.js.map",
     "index.html": "/perpetual-crusades/index.html",
-    "precache-manifest.1d3c652e57e267bf7f3fd8c6e6fd7643.js": "/perpetual-crusades/precache-manifest.1d3c652e57e267bf7f3fd8c6e6fd7643.js",
+    "precache-manifest.1fc80908ad387c1ab74553609fd26cc9.js": "/perpetual-crusades/precache-manifest.1fc80908ad387c1ab74553609fd26cc9.js",
     "service-worker.js": "/perpetual-crusades/service-worker.js",
     "static/css/main.806bb5ab.chunk.css.map": "/perpetual-crusades/static/css/main.806bb5ab.chunk.css.map",
     "static/js/2.221e7dcc.chunk.js.LICENSE.txt": "/perpetual-crusades/static/js/2.221e7dcc.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8e7ddac1.js",
     "static/js/2.221e7dcc.chunk.js",
     "static/css/main.806bb5ab.chunk.css",
-    "static/js/main.32fc2a96.chunk.js"
+    "static/js/main.b329d130.chunk.js"
   ]
 }
