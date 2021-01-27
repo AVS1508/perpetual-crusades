@@ -38,9 +38,7 @@ class App extends Component {
 
   movePlayer = (number, tiles) => {
     this.setState((prevState) => {
-      let currentPlayer = prevState.players.find(
-        (player) => player.number === prevState.currentPlayer.number
-      );
+      let currentPlayer = prevState.players.find((player) => player.number === prevState.currentPlayer.number);
 
       const position = currentPlayer.position + number;
       const landingTile = tiles[position % tiles.length];
@@ -71,14 +69,10 @@ class App extends Component {
       return {
         tile,
         players: prevState.players.map((player) =>
-          player.number === prevState.currentPlayer.number
-            ? currentPlayer
-            : player
+          player.number === prevState.currentPlayer.number ? currentPlayer : player
         ),
         currentPlayer:
-          prevState.currentPlayer.number === prevState.players[0].number
-            ? prevState.players[1]
-            : prevState.players[0],
+          prevState.currentPlayer.number === prevState.players[0].number ? prevState.players[1] : prevState.players[0],
       };
     });
   };
@@ -95,26 +89,18 @@ class App extends Component {
             Instructions
           </button>
           <h1>Perpetual Crusades</h1>
-          <a
-            className="inverted-button"
-            style={{ textDecoration: "none" }}
-            href=""
-          >
+          {/*eslint-disable-next-line*/}
+          <a className="inverted-button" style={{ textDecoration: "none" }} href="">
             Restart Game
           </a>
         </div>
         {this.state.displayInstruction ? (
-          <Instructions
-            onClose={this.toggleInstruction}
-            displayInstruction={this.state.displayInstruction}
-          />
+          <Instructions onClose={this.toggleInstruction} displayInstruction={this.state.displayInstruction} />
         ) : (
           <div className="App">
             <PlayersDisplay
               players={this.state.players}
-              getPlayerRace={(currentPlayerNumber) =>
-                currentPlayerNumber === 1 ? "Humanoid" : "Dragon"
-              }
+              getPlayerRace={(currentPlayerNumber) => (currentPlayerNumber === 1 ? "Humanoid" : "Dragon")}
               onIntroScreen={false}
             />
             {this.state.gameStarted ? (
