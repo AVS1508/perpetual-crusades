@@ -1,0 +1,9 @@
+{
+    "materialTheme.accent": "Graphite",
+    "oneDarkPro.editorTheme": "justBlack",
+    "eslint.codeAction.showDocumentation": {
+
+        "enable": true
+    },
+    "eslint.enable": false
+}
