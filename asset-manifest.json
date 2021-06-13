@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/perpetual-crusades/static/css/main.635cc7e2.chunk.css",
-    "main.js": "/perpetual-crusades/static/js/main.3e9790bc.chunk.js",
-    "main.js.map": "/perpetual-crusades/static/js/main.3e9790bc.chunk.js.map",
+    "main.js": "/perpetual-crusades/static/js/main.a1b9ee36.chunk.js",
+    "main.js.map": "/perpetual-crusades/static/js/main.a1b9ee36.chunk.js.map",
     "runtime-main.js": "/perpetual-crusades/static/js/runtime-main.e931c1c5.js",
     "runtime-main.js.map": "/perpetual-crusades/static/js/runtime-main.e931c1c5.js.map",
     "static/js/2.d0675d3b.chunk.js": "/perpetual-crusades/static/js/2.d0675d3b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e931c1c5.js",
     "static/js/2.d0675d3b.chunk.js",
     "static/css/main.635cc7e2.chunk.css",
-    "static/js/main.3e9790bc.chunk.js"
+    "static/js/main.a1b9ee36.chunk.js"
   ]
 }
