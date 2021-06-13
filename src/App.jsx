@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 
-import PlayersDisplay from "./components/PlayersDisplay";
-import Footer from "./components/Footer";
-import Instructions from "./components/Instructions";
+import PlayersDisplay from "./components/PlayersDisplay.jsx";
+import Footer from "./components/Footer.jsx";
+import Instructions from "./components/Instructions.jsx";
 
-import CharacterSelection from "./containers/CharacterSelection";
-import GameBoard from "./containers/GameBoard";
+import CharacterSelection from "./containers/CharacterSelection.jsx";
+import GameBoard from "./containers/GameBoard.jsx";
 
 import "./App.css";
 
